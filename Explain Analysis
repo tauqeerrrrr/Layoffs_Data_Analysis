@@ -1,0 +1,41 @@
+# Layoffs_Data_Analysis
+💼 Layoffs SQL Data Analysis Project
+This project involves the end-to-end SQL analysis of global layoff trends using a dataset of company layoffs. The goal is to clean the data, remove duplicates, standardize fields, convert date formats, and derive meaningful business insights from the layoff trends across industries, countries, and time periods.
+
+🔧 Key Features:
+Data Cleaning & Preparation:
+
+Removed duplicates using ROW_NUMBER() with CTEs.
+
+Trimmed whitespaces in key columns like company, location, and industry.
+
+Standardized the date column format using STR_TO_DATE() and converted to DATE datatype.
+
+Handled missing/null data by filtering or deleting incomplete records.
+
+Data Aggregation & Analysis:
+
+Analyzed total layoffs by company, industry, and country.
+
+Extracted yearly and monthly trends in layoffs.
+
+Assessed the stages of companies (e.g., early-stage, late-stage) with highest layoffs.
+
+Evaluated funding amounts versus layoffs to understand company dynamics.
+
+Key Business Insights:
+
+Identified companies with the highest number of layoffs.
+
+Found that certain industries like Tech and Crypto had major layoff spikes.
+
+Revealed country-wise patterns, showing which nations were most impacted.
+
+Monthly and yearly trends revealed layoff peaks during specific economic periods.
+
+🛠️ Technologies Used:
+SQL (MySQL syntax)
+
+SQL functions: ROW_NUMBER(), CTE, GROUP BY, ORDER BY, TRIM(), STR_TO_DATE(), MAX(), SUM(), etc.
+
+
